@@ -42,6 +42,14 @@
 	url = git@github.com:magit/magit.git
 	recursive-byte-compile = true
 	info-path = Documentation
+[submodule "org"]
+	path = lib/org
+	url = git://orgmode.org/org-mode.git
+	build-step = make autoloads
+	build-step = make info
+	load-path = lisp
+	load-path = contrib/lisp
+	info-path = doc
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
