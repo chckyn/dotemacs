@@ -4,77 +4,100 @@
 [submodule "ace-window"]
 	path = lib/ace-window
 	url = git@github.com:abo-abo/ace-window.git
+	ignore = untracked
 [submodule "all-the-icons"]
 	path = lib/all-the-icons
 	url = git@github.com:domtronn/all-the-icons.el.git
+	ignore = untracked
 [submodule "all-the-icons-dired"]
 	path = lib/all-the-icons-dired
 	url = git@github.com:jtbm37/all-the-icons-dired.git
+	ignore = untracked
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+	ignore = untracked
 [submodule "avy"]
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
+	ignore = untracked
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
+	ignore = untracked
 [submodule "centered-cursor-mode"]
 	path = lib/centered-cursor-mode
 	url = git@github.com:andre-r/centered-cursor-mode.el.git
+	ignore = untracked
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+	ignore = untracked
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
 	no-makeinfo = dash-template.texi
+	ignore = untracked
 [submodule "diff-hl"]
 	path = lib/diff-hl
 	url = git@github.com:dgutov/diff-hl.git
+	ignore = untracked
 [submodule "doom-modeline"]
 	path = lib/doom-modeline
 	url = git@github.com:seagle0128/doom-modeline.git
+	ignore = untracked
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
 	no-byte-compile = emacsql-pg.el
+	ignore = untracked
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+	ignore = untracked
 [submodule "eyebrowse"]
 	path = lib/eyebrowse
 	url = git@github.com:wasamasa/eyebrowse.git
+	ignore = untracked
 [submodule "f"]
 	path = lib/f
 	url = git@github.com:rejeep/f.el.git
+	ignore = untracked
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
+	ignore = untracked
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+	ignore = untracked
 [submodule "graphql"]
 	path = lib/graphql
 	url = git@github.com:vermiculus/graphql.el.git
+	ignore = untracked
 [submodule "htmlize"]
 	path = lib/htmlize
 	url = git@github.com:hniksic/emacs-htmlize.git
+	ignore = untracked
 [submodule "libgit"]
 	path = lib/libgit
 	url = git@github.com:magit/libegit2.git
 	build-step = make
+	ignore = untracked
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
 	recursive-byte-compile = true
 	info-path = Documentation
+	ignore = untracked
 [submodule "memoize"]
 	path = lib/memoize
 	url = git@github.com:skeeto/emacs-memoize.git
+	ignore = untracked
 [submodule "nimbus-theme"]
 	path = lib/nimbus-theme
 	url = git@github.com:m-cat/nimbus-theme.git
+	ignore = untracked
 [submodule "org"]
 	path = lib/org
 	url = git://orgmode.org/org-mode.git
@@ -83,43 +106,57 @@
 	load-path = lisp
 	load-path = contrib/lisp
 	info-path = doc
+	ignore = untracked
 [submodule "org-beautify-theme"]
 	path = lib/org-beautify-theme
 	url = git@github.com:jonnay/org-beautify-theme.git
+	ignore = untracked
 [submodule "org-bullets"]
 	path = lib/org-bullets
 	url = git@github.com:emacsorphanage/org-bullets.git
+	ignore = untracked
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+	ignore = untracked
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
 	url = git@github.com:Fanael/rainbow-delimiters.git
+	ignore = untracked
 [submodule "s"]
 	path = lib/s
 	url = git@github.com:magnars/s.el.git
+	ignore = untracked
 [submodule "shrink-path"]
 	path = lib/shrink-path
 	url = git@gitlab.com:bennya/shrink-path.el.git
+	ignore = untracked
 [submodule "super-save"]
 	path = lib/super-save
 	url = git@github.com:bbatsov/super-save.git
+	ignore = untracked
 [submodule "transient"]
 	path = lib/transient
 	url = git@github.com:magit/transient.git
 	info-path = docs
+	ignore = untracked
 [submodule "treepy"]
 	path = lib/treepy
 	url = git@github.com:volrath/treepy.el.git
+	ignore = untracked
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
+	ignore = untracked
 [submodule "which-key"]
 	path = lib/which-key
 	url = git@github.com:justbur/emacs-which-key.git
+	ignore = untracked
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+	ignore = untracked
 [submodule "xah-fly-keys"]
 	path = lib/xah-fly-keys
 	url = https://github.com/xahlee/xah-fly-keys.git
+	ignore = untracked
