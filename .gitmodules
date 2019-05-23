@@ -92,6 +92,9 @@
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "rainbow-delimiters"]
+	path = lib/rainbow-delimiters
+	url = git@github.com:Fanael/rainbow-delimiters.git
 [submodule "s"]
 	path = lib/s
 	url = git@github.com:magnars/s.el.git
