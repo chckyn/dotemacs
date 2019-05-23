@@ -45,6 +45,9 @@
 	url = git@github.com:magit/magit.git
 	recursive-byte-compile = true
 	info-path = Documentation
+[submodule "nimbus-theme"]
+	path = lib/nimbus-theme
+	url = git@github.com:m-cat/nimbus-theme.git
 [submodule "org"]
 	path = lib/org
 	url = git://orgmode.org/org-mode.git
