@@ -7,6 +7,9 @@
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
+[submodule "centered-cursor-mode"]
+	path = lib/centered-cursor-mode
+	url = git@github.com:andre-r/centered-cursor-mode.el.git
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
