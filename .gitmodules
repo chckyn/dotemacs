@@ -83,6 +83,12 @@
 	load-path = lisp
 	load-path = contrib/lisp
 	info-path = doc
+[submodule "org-beautify-theme"]
+	path = lib/org-beautify-theme
+	url = git@github.com:jonnay/org-beautify-theme.git
+[submodule "org-bullets"]
+	path = lib/org-bullets
+	url = git@github.com:emacsorphanage/org-bullets.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
