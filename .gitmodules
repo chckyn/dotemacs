@@ -101,6 +101,9 @@
 [submodule "shrink-path"]
 	path = lib/shrink-path
 	url = git@gitlab.com:bennya/shrink-path.el.git
+[submodule "super-save"]
+	path = lib/super-save
+	url = git@github.com:bbatsov/super-save.git
 [submodule "transient"]
 	path = lib/transient
 	url = git@github.com:magit/transient.git
