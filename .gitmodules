@@ -13,6 +13,10 @@
 	path = lib/all-the-icons-dired
 	url = git@github.com:jtbm37/all-the-icons-dired.git
 	ignore = untracked
+[submodule "amx"]
+	path = lib/amx
+	url = git@github.com:DarwinAwardWinner/amx.git
+	ignore = untracked
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
@@ -63,6 +67,10 @@
 	path = lib/f
 	url = git@github.com:rejeep/f.el.git
 	ignore = untracked
+[submodule "flx"]
+	path = lib/flx
+	url = git@github.com:lewang/flx.git
+	ignore = untracked
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
@@ -78,6 +86,10 @@
 [submodule "htmlize"]
 	path = lib/htmlize
 	url = git@github.com:hniksic/emacs-htmlize.git
+	ignore = untracked
+[submodule "ido-completing-read+"]
+	path = lib/ido-completing-read+
+	url = git@github.com:DarwinAwardWinner/ido-completing-read-plus.git
 	ignore = untracked
 [submodule "libgit"]
 	path = lib/libgit
