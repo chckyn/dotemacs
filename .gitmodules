@@ -139,6 +139,10 @@
 	path = lib/s
 	url = git@github.com:magnars/s.el.git
 	ignore = untracked
+[submodule "shackle"]
+	path = lib/shackle
+	url = git@github.com:wasamasa/shackle.git
+	ignore = untracked
 [submodule "shrink-path"]
 	path = lib/shrink-path
 	url = git@gitlab.com:bennya/shrink-path.el.git
