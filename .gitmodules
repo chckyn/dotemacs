@@ -276,3 +276,7 @@
 	path = lib/xah-fly-keys
 	url = https://github.com/xahlee/xah-fly-keys.git
 	ignore = untracked
+[submodule "xterm-color"]
+	path = lib/xterm-color
+	url = git@github.com:atomontage/xterm-color.git
+	ignore = untracked
