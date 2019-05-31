@@ -131,6 +131,10 @@
 	path = lib/org-bullets
 	url = git@github.com:emacsorphanage/org-bullets.git
 	ignore = untracked
+[submodule "org-rich-yank"]
+	path = lib/org-rich-yank
+	url = git@github.com:unhammer/org-rich-yank.git
+	ignore = untracked
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
