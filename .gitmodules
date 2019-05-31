@@ -54,10 +54,18 @@
 	path = lib/dumb-jump
 	url = git@github.com:jacktasia/dumb-jump.git
 	ignore = untracked
+[submodule "elfeed"]
+	path = lib/elfeed
+	url = git@github.com:skeeto/elfeed.git
+	ignore = untracked
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
 	no-byte-compile = emacsql-pg.el
+	ignore = untracked
+[submodule "emms"]
+	path = lib/emms
+	url = https://git.savannah.gnu.org/git/emms.git
 	ignore = untracked
 [submodule "epkg"]
 	path = lib/epkg
@@ -86,6 +94,10 @@
 [submodule "graphql"]
 	path = lib/graphql
 	url = git@github.com:vermiculus/graphql.el.git
+	ignore = untracked
+[submodule "highline"]
+	path = lib/highline
+	url = git@github.com:emacsmirror/highline.git
 	ignore = untracked
 [submodule "htmlize"]
 	path = lib/htmlize
@@ -158,6 +170,10 @@
 [submodule "shrink-path"]
 	path = lib/shrink-path
 	url = git@gitlab.com:bennya/shrink-path.el.git
+	ignore = untracked
+[submodule "simple-httpd"]
+	path = lib/simple-httpd
+	url = git@github.com:skeeto/emacs-web-server.git
 	ignore = untracked
 [submodule "super-save"]
 	path = lib/super-save
