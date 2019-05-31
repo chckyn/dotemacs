@@ -99,9 +99,17 @@
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
 	ignore = untracked
+[submodule "git-messenger"]
+	path = lib/git-messenger
+	url = git@github.com:syohex/emacs-git-messenger.git
+	ignore = untracked
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+	ignore = untracked
+[submodule "git-timemachine"]
+	path = lib/git-timemachine
+	url = git@gitlab.com:pidu/git-timemachine.git
 	ignore = untracked
 [submodule "gntp"]
 	path = lib/gntp
