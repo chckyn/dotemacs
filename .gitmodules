@@ -103,6 +103,10 @@
 	path = lib/htmlize
 	url = git@github.com:hniksic/emacs-htmlize.git
 	ignore = untracked
+[submodule "hydra"]
+	path = lib/hydra
+	url = git@github.com:abo-abo/hydra.git
+	ignore = untracked
 [submodule "ido-completing-read+"]
 	path = lib/ido-completing-read+
 	url = git@github.com:DarwinAwardWinner/ido-completing-read-plus.git
@@ -154,6 +158,10 @@
 [submodule "popup"]
 	path = lib/popup
 	url = git@github.com:auto-complete/popup-el.git
+	ignore = untracked
+[submodule "posframe"]
+	path = lib/posframe
+	url = git@github.com:tumashu/posframe.git
 	ignore = untracked
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
