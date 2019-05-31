@@ -5,6 +5,10 @@
 	path = lib/ace-window
 	url = git@github.com:abo-abo/ace-window.git
 	ignore = untracked
+[submodule "alert"]
+	path = lib/alert
+	url = git@github.com:jwiegley/alert.git
+	ignore = untracked
 [submodule "all-the-icons"]
 	path = lib/all-the-icons
 	url = git@github.com:domtronn/all-the-icons.el.git
@@ -45,6 +49,10 @@
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
 	no-makeinfo = dash-template.texi
+	ignore = untracked
+[submodule "deferred"]
+	path = lib/deferred
+	url = git@github.com:kiwanami/emacs-deferred.git
 	ignore = untracked
 [submodule "diff-hl"]
 	path = lib/diff-hl
@@ -95,6 +103,10 @@
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
 	ignore = untracked
+[submodule "gntp"]
+	path = lib/gntp
+	url = git@github.com:tekai/gntp.el.git
+	ignore = untracked
 [submodule "graphql"]
 	path = lib/graphql
 	url = git@github.com:vermiculus/graphql.el.git
@@ -124,6 +136,10 @@
 	url = git@github.com:magit/libegit2.git
 	build-step = make
 	ignore = untracked
+[submodule "log4e"]
+	path = lib/log4e
+	url = git@github.com:aki2o/log4e.git
+	ignore = untracked
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -137,6 +153,10 @@
 [submodule "nimbus-theme"]
 	path = lib/nimbus-theme
 	url = git@github.com:m-cat/nimbus-theme.git
+	ignore = untracked
+[submodule "oauth2"]
+	path = lib/oauth2
+	url = git@github.com:emacsmirror/oauth2.git
 	ignore = untracked
 [submodule "ob-go"]
 	path = lib/ob-go
@@ -159,6 +179,10 @@
 	path = lib/org-bullets
 	url = git@github.com:emacsorphanage/org-bullets.git
 	ignore = untracked
+[submodule "org-gcal"]
+	path = lib/org-gcal
+	url = git@github.com:kidd/org-gcal.el.git
+	ignore = untracked
 [submodule "org-rich-yank"]
 	path = lib/org-rich-yank
 	url = git@github.com:unhammer/org-rich-yank.git
@@ -178,6 +202,10 @@
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
 	url = git@github.com:Fanael/rainbow-delimiters.git
+	ignore = untracked
+[submodule "request"]
+	path = lib/request
+	url = git@github.com:tkf/emacs-request.git
 	ignore = untracked
 [submodule "s"]
 	path = lib/s
