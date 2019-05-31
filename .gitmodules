@@ -138,6 +138,10 @@
 	path = lib/nimbus-theme
 	url = git@github.com:m-cat/nimbus-theme.git
 	ignore = untracked
+[submodule "ob-go"]
+	path = lib/ob-go
+	url = git@github.com:pope/ob-go.git
+	ignore = untracked
 [submodule "org"]
 	path = lib/org
 	url = git://orgmode.org/org-mode.git
