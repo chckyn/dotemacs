@@ -25,6 +25,10 @@
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
 	ignore = untracked
+[submodule "bash-completion"]
+	path = lib/bash-completion
+	url = git@github.com:szermatt/emacs-bash-completion.git
+	ignore = untracked
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
