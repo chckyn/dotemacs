@@ -99,6 +99,10 @@
 	path = lib/graphql
 	url = git@github.com:vermiculus/graphql.el.git
 	ignore = untracked
+[submodule "hide-mode-line"]
+	path = lib/hide-mode-line
+	url = git@github.com:hlissner/emacs-hide-mode-line.git
+	ignore = untracked
 [submodule "highline"]
 	path = lib/highline
 	url = git@github.com:emacsmirror/highline.git
