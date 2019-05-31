@@ -50,6 +50,10 @@
 	path = lib/doom-modeline
 	url = git@github.com:seagle0128/doom-modeline.git
 	ignore = untracked
+[submodule "dumb-jump"]
+	path = lib/dumb-jump
+	url = git@github.com:jacktasia/dumb-jump.git
+	ignore = untracked
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
@@ -130,6 +134,10 @@
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+	ignore = untracked
+[submodule "popup"]
+	path = lib/popup
+	url = git@github.com:auto-complete/popup-el.git
 	ignore = untracked
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
