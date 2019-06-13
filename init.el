@@ -119,8 +119,8 @@
   (add-hook 'prog-mode-hook #'indicate-buffer-boundaries-left))
 
 (use-package recentf
-  :demand t
-  :config (add-to-list 'recentf-exclude "^/\\(?:ssh\\|su\\|sudo\\)?:"))
+  :hook (after-init . recentf-mode)
+  :config (setq recentf-max-saved-items 200))
 
 (use-package savehist
   :config (savehist-mode))
