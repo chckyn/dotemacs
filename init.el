@@ -74,11 +74,11 @@
 
 (use-package eldoc
   :when (version< "25" emacs-version)
-  :config (global-eldoc-mode))
+  :hook (after-init . global-eldoc-mode))
 
 (use-package help
   :defer t
-  :config (temp-buffer-resize-mode))
+  :hook (after-init . temp-buffer-resize-mode))
 
 (progn ;    `isearch'
   (setq isearch-allow-scroll t))
@@ -106,10 +106,11 @@
 (use-package paren
   :config (show-paren-mode))
 
+(defun indicate-buffer-boundaries-left ()
+  (setq indicate-buffer-boundaries 'left))
+
 (use-package prog-mode
-  (defun indicate-buffer-boundaries-left ()
-    (setq indicate-buffer-boundaries 'left))
-  (add-hook 'prog-mode-hook #'indicate-buffer-boundaries-left))
+  :hook (prog-mode . indicate-buffer-boundaries-left))
 
 (use-package recentf
   :hook (after-init . recentf-mode)
@@ -135,10 +136,10 @@
   :hook (after-init . save-place-mode))
 
 (use-package simple
-  :config (column-number-mode))
+  :hook (after-init . column-number-mode))
 
-(progn ;    `text-mode'
-  (add-hook 'text-mode-hook #'indicate-buffer-boundaries-left))
+(use-package text-mode
+  :hook (text-mode . indicate-buffer-boundaries-left))
 
 (use-package tramp
   :defer t
