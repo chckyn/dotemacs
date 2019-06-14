@@ -631,6 +631,7 @@ To minimize the amount of whitespace laying around my files, I like to remove tr
           ("^\\*.*Shell Command.*\\*$" :regexp t :size 0.3 :align 'below :autoclose t)
           ("\\*[Wo]*Man.*\\*" :regexp t :select t :align 'below :autoclose t)
           ("*Calendar*" :select t :size 0.3 :align 'below)
+          (" *undo-tree*" :select t)
           ("*Paradox Report*" :size 0.3 :align 'below :autoclose t)
           ("*quickrun*" :select t :size 15 :align 'below)
           ("*tldr*" :align 'below :autoclose t)
@@ -654,6 +655,16 @@ To minimize the amount of whitespace laying around my files, I like to remove tr
           (profiler-report-mode :select t :size 0.5 :align 'below)
           (tabulated-list-mode :align 'below))))
 
+#+end_src
+
+#+begin_src emacs-lisp
+  (use-package undo-tree
+    :hook (after-init . global-undo-tree-mode)
+    :config (setq undo-tree-auto-save-history t))
+
+  (defadvice undo-tree-make-history-save-file-name
+      (after undo-tree activate)
+    (setq ad-return-value (concat ad-return-value ".gz")))
 #+end_src
 
 #+BEGIN_SRC emacs-lisp
