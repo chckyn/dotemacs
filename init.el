@@ -9,16 +9,12 @@
   (setq user-init-file (or load-file-name buffer-file-name))
   (setq user-emacs-directory (file-name-directory user-init-file))
   (message "Loading %s..." user-init-file)
-  (setq package-enable-at-startup nil)
   ;; (package-initialize)
   (setq inhibit-startup-buffer-menu t)
   (setq inhibit-startup-screen t)
   (setq inhibit-startup-echo-area-message "locutus")
   (setq initial-buffer-choice t)
   (setq initial-scratch-message "")
-  (scroll-bar-mode 0)
-  (tool-bar-mode 0)
-  (menu-bar-mode 1)
   (setq load-prefer-newer t))
 
 (progn ;    `borg'
