@@ -122,6 +122,10 @@
   :hook (after-init . recentf-mode)
   :config (setq recentf-max-saved-items 200))
 
+(use-package exec-path-from-shell
+  :config (setq exec-path-from-shell-variables '("PATH" "MANPATH" "PYTHONPATH" "GOPATH"))
+  :hook (after-init . exec-path-from-shell-initialize))
+
 (use-package savehist
   :config (savehist-mode))
 
