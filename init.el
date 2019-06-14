@@ -107,7 +107,6 @@
   :config (show-paren-mode))
 
 (use-package prog-mode
-  :config (global-prettify-symbols-mode)
   (defun indicate-buffer-boundaries-left ()
     (setq indicate-buffer-boundaries 'left))
   (add-hook 'prog-mode-hook #'indicate-buffer-boundaries-left))
