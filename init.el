@@ -127,7 +127,15 @@
   :hook (after-init . exec-path-from-shell-initialize))
 
 (use-package savehist
-  :config (savehist-mode))
+  :config (setq enable-recursive-minibuffers t ; Allow commands in minibuffers
+                history-length 1000
+                savehist-additional-variables '(mark-ring
+                                                global-mark-ring
+                                                search-ring
+                                                regexp-search-ring
+                                                extended-command-history)
+                savehist-autosave-interval 300)
+  :hook (after-init . savehist-mode))
 
 (use-package saveplace
   :when (version< "25" emacs-version)
