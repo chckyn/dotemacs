@@ -149,23 +149,23 @@
   (add-to-list 'tramp-default-proxies-alist
                (list (regexp-quote (system-name)) nil nil)))
 
-(progn ;     startup
-  (message "Loading %s...done (%.3fs)" user-init-file
-           (float-time (time-subtract (current-time)
-                                      before-user-init-time)))
-  (add-hook 'after-init-hook
-            (lambda ()
-              (message
-               "Loading %s...done (%.3fs) [after-init]" user-init-file
-               (float-time (time-subtract (current-time)
-                                          before-user-init-time))))
-            t))
+(letrec ((print-loading-message (lambda (file-loaded start-time end-time &optional extra-message)
+                                  (message "Loading %s...done (%.3fs)%s" file-loaded
+                                           (float-time (time-subtract end-time start-time))
+                                           (if extra-message (concat " " extra-message) "")))))
+  ; startup
+  (funcall print-loading-message user-init-file before-user-init-time (current-time))
+  (add-hook 'after-init-hook (lambda () (funcall print-loading-message user-init-file before-user-init-time (current-time))))
 
-(progn ;     personalize
+  ; personalize
   (let ((org-file (expand-file-name (concat (user-real-login-name) ".org")
-                                   user-emacs-directory)))
+                                    user-emacs-directory)))
+    (setq before-personal-init-time (current-time))
+
     (when (file-exists-p org-file)
-      (org-babel-load-file org-file))))
+      (org-babel-load-file org-file))
+
+    (funcall print-loading-message org-file before-personal-init-time (current-time))))
 
 ;; Local Variables:
 ;; indent-tabs-mode: nil
