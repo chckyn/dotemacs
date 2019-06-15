@@ -1,3 +1,8 @@
+chckyn Emacs configuration
+==========================
+
+This is my Emacs configuration forked from Borg.
+
 Assimilate Emacs packages as Git submodules
 ===========================================
 
